@@ -19,7 +19,7 @@ const Page: React.FC<PageProps> = () => {
           <div className="space-y-2 text-center">
             <h1 className="text-4xl font-bold tracking-tighter sm:text-6xl">Privacy Policy</h1>
             <p className="text-center max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-              Last updated: [Insert Last Updated Date]
+              Last updated: 26 February 2024
             </p>
           </div>
           <div className="space-y-8">

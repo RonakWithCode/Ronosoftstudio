@@ -26,6 +26,7 @@ const Footer = () => {
                     height={30}
                   />
                 </Link>
+                <h1 className=" mb-5 text-2xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight" >Ronosoft studio</h1>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
                 Specialize in top-quality content creation and strategic social media management for brand boosting and engagement.
 
@@ -115,17 +116,17 @@ const Footer = () => {
                   Useful Links
                 </h2>
                 <ul>
-                  <li>
+                  {/* <li>
                     <Link
                       href="/blog"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Blog
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link
-                      href="/"
+                      href="#pricing"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Pricing
@@ -143,7 +144,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
+            {/* <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
                   Terms
@@ -175,7 +176,7 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
 
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
               <div className="mb-12 lg:mb-16">
@@ -191,14 +192,14 @@ const Footer = () => {
                       Open Support Ticket
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link
                       href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Terms of Use
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link
                       href="/about"
@@ -213,28 +214,7 @@ const Footer = () => {
           </div>
 
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
-          <div className="py-8">
-            <p className="text-center text-base text-body-color dark:text-white">
-              Template by{" "}
-              <a
-                href="http://uideck.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-primary"
-              >
-                UIdeck
-              </a>{" "}
-              and{" "}
-              <a
-                href="https://nextjstemplates.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-primary"
-              >
-                Next.js Templates
-              </a>
-            </p>
-          </div>
+     
         </div>
         <div className="absolute right-0 top-14 z-[-1]">
           <svg
